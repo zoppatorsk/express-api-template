@@ -1,0 +1,28 @@
+{
+  "name": "express-api-template",
+  "version": "1.0.0",
+  "description": "\"# express-api-template\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoppatorsk/express-api-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoppatorsk/express-api-template/issues"
+  },
+  "homepage": "https://github.com/zoppatorsk/express-api-template#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^4.1.1",
+    "joi": "^17.2.1"
+  }
+}

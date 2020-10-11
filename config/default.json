@@ -1,0 +1,9 @@
+{
+	"app": {
+		"port": "4000"
+	},
+	"auth": {
+		"jwtKey": "JWT_KEY",
+		"exp": "256h"
+	}
+}
