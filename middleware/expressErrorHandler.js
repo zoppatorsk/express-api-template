@@ -1,4 +1,4 @@
-/*jshint esversion: 8 */
+//Simple error handler
 const logger = require('../modules/logger');
 module.exports = function (err, req, res, next) {
 	//thrown by bodyparser if payload is too large

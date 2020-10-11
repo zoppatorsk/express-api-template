@@ -15,7 +15,7 @@ function auth(req, res, next) {
 		req.decoded = decoded;
 		next();
 	} catch (err) {
-		return res.status(401).send('Access denied, invalid token.');
+		return res.status(401).send('Access denied!');
 	}
 }
 module.exports = auth;
